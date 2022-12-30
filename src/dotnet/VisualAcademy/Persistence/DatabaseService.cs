@@ -12,7 +12,7 @@ namespace Persistence
         
         }
 
-        public DbSet<Todo> Todos { get; set; }
+        public DbSet<Todo> Todos { get; set; } = null!;
 
         public void Save()
         {
