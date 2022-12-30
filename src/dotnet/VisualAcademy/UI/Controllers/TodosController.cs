@@ -56,12 +56,12 @@ namespace UI.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,IsComplete")] Todo todo)
+        public IActionResult Create([Bind("Id,Name,IsComplete")] Todo todo)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(todo);
-                await _context.SaveChangesAsync();
+                _context.Save(); // 비동기에서 동기로 테스트
                 return RedirectToAction(nameof(Index));
             }
             return View(todo);
