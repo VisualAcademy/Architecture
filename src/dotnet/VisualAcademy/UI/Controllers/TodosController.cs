@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Domain.Entities;
-using UI.Data;
+using Persistence;
 
 namespace UI.Controllers
 {
     public class TodosController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly DatabaseService _context;
 
-        public TodosController(ApplicationDbContext context)
+        public TodosController(DatabaseService context)
         {
             _context = context;
         }
