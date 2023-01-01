@@ -1,0 +1,3 @@
+﻿## Application
+
+* Application 계층에서는 아직까지 어떤 DB를 사용할지 모릅니다.
