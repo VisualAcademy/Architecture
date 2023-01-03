@@ -1,6 +1,7 @@
 ﻿namespace Application.Common.Interfaces
 {
-    internal interface IApplicationDbContext
+    public interface IApplicationDbContext
     {
+
     }
 }
