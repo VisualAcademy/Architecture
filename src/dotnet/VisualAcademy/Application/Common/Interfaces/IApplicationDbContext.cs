@@ -1,7 +1,6 @@
-﻿namespace Application.Common.Interfaces
-{
-    public interface IApplicationDbContext
-    {
+﻿namespace Application.Common.Interfaces;
 
-    }
+public interface IApplicationDbContext
+{
+
 }
