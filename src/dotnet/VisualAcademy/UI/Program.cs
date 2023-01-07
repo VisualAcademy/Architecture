@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddDbContext<DatabaseService>(opt => opt.UseSqlServer(connectionString));
 
-builder.Services.AddTransient<IDatabaseService, DatabaseService>();
+builder.Services.AddTransient<IDatabaseService, DatabaseService>(); // AddDbContext()¿¡ Æ÷ÇÔµÊ
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
