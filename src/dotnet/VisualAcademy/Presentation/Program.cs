@@ -1,5 +1,5 @@
 using Application.Common.Interfaces;
-using Application.Todos.Queries;
+using Application.Todos.Queries.GetTodos;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 

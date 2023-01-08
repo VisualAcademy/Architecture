@@ -1,6 +1,6 @@
 ﻿using Application.Common.Interfaces;
-using Application.Todos.Commands;
-using Application.Todos.Queries;
+using Application.Todos.Commands.CreateTodo;
+using Application.Todos.Queries.GetTodos;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 

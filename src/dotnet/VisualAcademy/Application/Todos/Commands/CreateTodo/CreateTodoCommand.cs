@@ -1,13 +1,13 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Entities;
 
-namespace Application.Todos.Commands;
+namespace Application.Todos.Commands.CreateTodo;
 
 public class CreateTodoCommand : ICreateTodoCommand
 {
     private readonly IDatabaseService _db;
 
-    public CreateTodoCommand(IDatabaseService db) => this._db = db;
+    public CreateTodoCommand(IDatabaseService db) => _db = db;
 
     public void Execute(CreateTodoModel model)
     {

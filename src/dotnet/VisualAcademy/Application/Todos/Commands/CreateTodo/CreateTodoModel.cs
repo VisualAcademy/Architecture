@@ -1,4 +1,4 @@
-﻿namespace Application.Todos.Commands;
+﻿namespace Application.Todos.Commands.CreateTodo;
 
 public class CreateTodoModel
 {

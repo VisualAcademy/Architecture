@@ -1,4 +1,4 @@
-﻿namespace Application.Todos.Queries;
+﻿namespace Application.Todos.Queries.GetTodos;
 
 public class TodoModel
 {

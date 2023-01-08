@@ -1,6 +1,6 @@
 ﻿using Application.Common.Interfaces;
 
-namespace Application.Todos.Queries;
+namespace Application.Todos.Queries.GetTodos;
 
 public class GetTodosQuery : IGetTodosQuery
 {
