@@ -1,11 +1,10 @@
-﻿namespace Application.Common.Interfaces
+﻿namespace Application.Common.Interfaces;
+
+public interface IEmailService
 {
-    public interface IEmailService
-    {
-        Task SendEmailAsync(
-            string email,
-            string subject,
-            string message,
-            bool isBodyHtml = true);
-    }
+    Task SendEmailAsync(
+        string email,
+        string subject,
+        string message,
+        bool isBodyHtml = true);
 }
