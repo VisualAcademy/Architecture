@@ -1,5 +1,9 @@
 # Architecture
 
+클린 아키텍처에 대한 기본 강의를 제작중입니다.
+
+다 완성이 되면 데브렉(www.devlec.com) 사이트를 통해서 공개할 예정입니다.
+
 ## Architecture 이름으로 GitHub 리포지토리 생성하고 로컬에 복제하기
 
 https://youtu.be/WfNAbAlChJg
