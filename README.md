@@ -16,3 +16,8 @@ https://youtu.be/5XWv3BbT2XU
 
 > [!Video https://www.youtube.com/embed/5XWv3BbT2XU]
 
+## 각각의 솔루션 폴더에 클래스 라이브러리 프로젝트 생성
+
+https://youtu.be/9iFEXnFpVvE
+
+> [!Video https://www.youtube.com/embed/9iFEXnFpVvE]
