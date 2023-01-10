@@ -21,3 +21,10 @@ https://youtu.be/5XWv3BbT2XU
 https://youtu.be/9iFEXnFpVvE
 
 > [!Video https://www.youtube.com/embed/9iFEXnFpVvE]
+
+## Domain 프로젝트에 인터페이스와 클래스 추가
+
+https://youtu.be/Pk2WgXCjiHU
+
+> [!Video https://www.youtube.com/embed/Pk2WgXCjiHU]
+
