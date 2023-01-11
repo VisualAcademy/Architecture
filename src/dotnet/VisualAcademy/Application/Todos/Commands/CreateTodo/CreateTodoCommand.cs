@@ -11,9 +11,11 @@ public class CreateTodoCommand : ICreateTodoCommand
 
     public void Execute(CreateTodoModel model)
     {
-        var todo = new Todo();
-        todo.Name = model.Name;
-        todo.IsComplete = model.IsComplete;
+        var todo = new Todo
+        {
+            Name = model.Name,
+            IsComplete = model.IsComplete
+        };
 
         _db.Todos.Add(todo);
         _db.Save();
